@@ -207,6 +207,11 @@ template {
 
 
 
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
 
 html {
     scroll-behavior: smooth;
@@ -253,6 +258,7 @@ a:active {
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
+
 
 .section-header {
     text-align: var(--section-header-align);
