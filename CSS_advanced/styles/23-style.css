@@ -219,8 +219,6 @@ template {
     --section-tagline-margin: 0;
 }
 
-
-
 *,
 *:before,
 *:after {
@@ -248,7 +246,6 @@ a:link {
 a:visited {
     font-style: italic;
 }
-
 
 a:hover {
     text-decoration: underline;
@@ -327,7 +324,6 @@ a:active {
     padding: var(--section-footer-padding);
 }
 
-
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -345,7 +341,6 @@ h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
-
 
 .footer {
     padding: var(--footer-padding);
