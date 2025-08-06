@@ -227,6 +227,9 @@ template {
     box-sizing: border-box;
 }
 
+/* // This method selected pseudo elements as well, improving the normalizing effect of border-box. But, the * selector makes it difficult for developers to use content-box or padding-box elsewhere in the CSS. Which brings us to the current frontrunner for best practice:
+*/
+
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -390,4 +393,16 @@ ul.row {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
+}
+
+.footer-address {
+    color: var(--text-color);
+}
+
+.social-link {
+    display: block;
+}
+
+.social-link>svg {
+    fill: var(--text-color);
 }
